@@ -6,52 +6,28 @@
 
     <div class="w-full py-28 " id="Our_menu">
 
-        <div class="pb-10 font-bold text-4xl text-center">
-          <h1 class="text-black font-bold text-4xl">Our menu</h1>
+        <div class="pb-10 text-center">
+          <h1 class="text-black font-bold text-5xl">Our menu</h1>
+          <p class="text-xl">What would u like to eat?</p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-10" id="grids">
-          
-                <div class="p-2 shadow-xl">
-                  <img :src="require('@/assets/images/about1.jpeg')" class="m-0">
-                </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-10">
 
-                <div class="p-2 shadow-xl">
-                  <img :src="require('@/assets/images/about1.jpeg')" class="m-0">
-                </div>
+          <FoodPreview v-for="item in preview" :key="item.id"
+              :desc="item.desc"
+              :pic="item.pic"
+              :btn="'Order'"
+           
 
-                <div class="p-2 shadow-xl">
-                  <img :src="require('@/assets/images/about1.jpeg')" class="m-0">
-                </div>
-
-                <div class="p-2 shadow-xl">
-                  <img :src="require('@/assets/images/about1.jpeg')" class="m-0">
-                </div>
-
-                <div class="p-2 shadow-x lg:mt-6">
-                  <img :src="require('@/assets/images/about1.jpeg')" class="m-0">
-                </div>
-
-                <div class="p-2 shadow-xl lg:mt-6">
-                  <img :src="require('@/assets/images/about1.jpeg')" class="m-0">
-                </div>
-
-                <div class="p-2 shadow-xl lg:mt-6">
-                  <img :src="require('@/assets/images/about1.jpeg')" class="m-0">
-                </div>
-
-                <div class="p-2 shadow-xl lg:mt-6">
-                  <img :src="require('@/assets/images/about1.jpeg')" class="m-0">
-                </div>
-
-            
+          />
 
         </div>
+      
     
     </div>
 
-    <div class="w-full  bg-no-repeat bg-cover bg-center" :style="{backgroundRepeat: 'no-repeat' + ';' , backgroundImage: 'url(' + require('@/assets/images/send_in_orders.jpg') +')'}">
-      <div class="bg-black bg-opacity-60">
+    <div class="w-full  bg-no-repeat bg-cover bg-center" :style="{backgroundRepeat: 'no-repeat' + ';' , backgroundImage: 'url(' + require('@/assets/images/productbackground2.jpg') +')'}">
+      <div class="bg-black bg-opacity-80">
 
         <div class="pt-10 pb-72">
 
@@ -59,13 +35,14 @@
               <h1 class=" text-center font-bold text-5xl">Subscribe to Our Newsletter </h1>  
            </div>
 
-          <div class="text-white flex w-full">
+          <div class="text-white flex">
 
-              <div class="mx-auto mt-28 block flex justify-between border px-auto md:pl-4 rounded-full bg-white items-center">
+              <div class=" border rounded-full bg-white mt-28 ml-2 flex justify-between md:mx-auto md:pl-4 items-center">
+                  
                   <input type="text"  class="outline-none text-black text-xl md:text-2xl font-semibold text-center" placeholder="Enter your Email">
-
-                   <div class="">
-                      <button class="border rounded-full py-4 px-10 bg-gray-500 text-white text-2xl font-bold">Subscribe</button>
+                                   
+                  <div class="">
+                      <button class="bg-gray-500 p-4 border rounded-full text-white text-2xl font-bold hover:border-2 hover:bg-black">Subscribe</button>
                   </div>
               </div>
 
@@ -82,6 +59,67 @@
 
 <script>
 
+ export default{
+   
+   data(){
+     return{
+       preview: [
+
+          {
+            id:1,
+            pic: require('@/assets/food/food1.jpg'),
+            desc:`Lorem ipsum`
+          },
+
+          {
+            id:2,
+            pic: require('@/assets/food/Food3.jpg'),
+            desc:`Lorem ipsum`
+          
+          },
+
+          {
+            id:3,
+            pic: require('@/assets/food/food8.jpg'),
+            desc:`Lorem ipsum`
+          },
+
+          {
+            id:4,
+            pic: require('@/assets/food/food9.jpg'),
+            desc:`Lorem ipsum`
+          },
+          
+          {
+            id:5,
+            pic: require('@/assets/food/food7.jpg'),
+            desc:`Lorem ipsum`
+          },
+
+          {
+            id:6,
+            pic: require('@/assets/food/food10.jpg'),
+            desc:`Lorem ipsum`
+          },
+
+          {
+            id:7,
+            pic: require('@/assets/food/Food5.jpg'),
+            desc:`Lorem ipsum`
+          },
+
+          {
+            id:8,
+            pic: require('@/assets/food/Food4.jpg'),
+            desc:`Lorem ipsum`
+          },
+
+       ] 
+
+     };
+   }
+
+ }
 
 </script>
 

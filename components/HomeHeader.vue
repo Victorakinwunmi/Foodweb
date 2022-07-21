@@ -27,9 +27,9 @@
             
             <nuxt-link to="/" class="p-6 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:px-4 border-b-4 hover:border-white border-transparent  rounded-sm  duration-500 ease-in-out">Home</nuxt-link>
             <nuxt-link to="product" class="p-6 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:px-4 border-b-4 hover:border-white border-transparent  rounded-sm  duration-500 ease-in-out">Product</nuxt-link>
-            <a href="#about" class="p-6  px-0 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:px-4 border-b-4 hover:border-white border-transparent  rounded-sm  duration-500 ease-in-out">About</a>
+            <a href="#about" class="p-6  px-0 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:px-4 border-b-4 hover:border-white border-transparent  rounded-sm  duration-500 ease-in-out">News</a>
             <a href="#contacts" class="p-6 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:px-4 border-b-4 hover:border-white border-transparent  rounded-sm  duration-500 ease-in-out">Contact</a>
-            <nuxt-link to="" class="p-2 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:pl-8">Search icon</nuxt-link>
+            <nuxt-link to="Todo" class="p-2 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:pl-8">Search icon</nuxt-link>
             
             
           </div>

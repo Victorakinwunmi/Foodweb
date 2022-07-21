@@ -1,7 +1,7 @@
 <template>
 
     <div class="w-full">
-            <div class=" flex bg-black w-full justify-between opacity-80 fixed z-100">
+            <div class=" flex bg-black w-full justify-between opacity-80 fixed z-100 ">
                 <div class="flex items-center">
                     <button :class="is_revealed ? 'hidden' : 'block lg:hidden' " class="pl-8 text-white" @click="showMenu">
                     <div>
@@ -27,7 +27,7 @@
                     
                     <nuxt-link to="/" class="p-6 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:px-4 border-b-4 hover:border-white border-transparent  rounded-sm  duration-500 ease-in-out">Home</nuxt-link>
                     <nuxt-link to="product" class="p-6 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:px-4 border-b-4 hover:border-white border-transparent  rounded-sm  duration-500 ease-in-out">Product</nuxt-link>
-                    <nuxt-link to="/" class="p-6  px-0 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:px-4 border-b-4 hover:border-white border-transparent  rounded-sm  duration-500 ease-in-out">About</nuxt-link>
+                    <nuxt-link to="/" class="p-6  px-0 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:px-4 border-b-4 hover:border-white border-transparent  rounded-sm  duration-500 ease-in-out">News</nuxt-link>
                     <nuxt-link to="/" class="p-6 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:px-4 border-b-4 hover:border-white border-transparent  rounded-sm  duration-500 ease-in-out">Contact</nuxt-link>
                     <nuxt-link to="/" class="p-2 block mx-auto lg:mx-0 lg:py-1  lg:flex lg:pl-8">Search icon</nuxt-link>
                     
@@ -39,7 +39,7 @@
             </div>
 
           
-           <div class="w-full min-h-full bg-no-repeat bg-cover bg-center" :style="{backgroundRepeat: 'no-repeat' + ';' , backgroundImage: 'url(' + require('@/assets/images/productbackground.jpg') +')'}">
+           <div class="w-full min-h-full bg-no-repeat bg-cover bg-center" :style="{backgroundRepeat: 'no-repeat' + ';' , backgroundImage: 'url(' + require('@/assets/images/productbackground3.jpg') +')'}">
                 <div class="bg-opacity-70 bg-black text-center">
                     <div class="py-48">
                         <div class="">

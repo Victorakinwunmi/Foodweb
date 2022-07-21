@@ -15,7 +15,7 @@
       <div class="w-full grid grid-cols-1  xl:grid-cols-2 gap-6 mx-auto bg-gray-100">
        
         <div class="mx-auto">
-          <img :src="require('@/assets/images/about2.jpg')" class="m-0 md:max-w-lg p-4">
+          <img :src="require('@/assets/vegetables/vegetable_1.jpg')" class="m-0 md:max-w-lg p-4">
 
           <div class="p-6 max-w-xl">
              diddhi Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit possimus,
@@ -30,7 +30,7 @@
         <div class="grid grid-cols-1 gap-6">
           <div class="items-center grid grid-cols-1 lg:grid-cols-2 ">
             <div class="max-w-md rounded-2xl mx-auto">
-              <img :src="require('@/assets/images/about3.jpg')" class="w-full objec-fit m-0 p-4 rounded-2xl" />
+              <img :src="require('@/assets/vegetables/vegetable_2.jpg')" class="w-full objec-fit m-0 p-4 rounded-2xl" />
             </div>
             <div class="p-10 lg:p-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt, quam consequuntur veniam, 
@@ -53,7 +53,7 @@
             </div>
 
             <div class="max-w-md rounded-2xl mx-auto">
-              <img :src="require('@/assets/images/about1.jpeg')" class="w-full objec-fit m-0 p-4 rounded-2xl" />
+              <img :src="require('@/assets/vegetables/vegetable_3.jpg')" class="w-full objec-fit m-0 p-4 rounded-2xl" />
             </div>
             
           </div>
@@ -69,7 +69,7 @@
 
           <div class="text-black text-4xl font-bold px-10 pt-10">
 
-            <h1 class="">About Us</h1>
+            <h1 class="">News about Us</h1>
 
           </div>
 
@@ -118,9 +118,7 @@
               
             </div>
               
-              <div class="pt-6 md:text-center sm:text-left lg:text-text-center xl:text-left">
-                <button class="border-2 border-black text-black font-bold p-2 rounded-md hover:text-red-500">Read more</button>
-              </div>
+              
           </div>
 
           <div class="border border-white border-2 p-6 bg-gray-100">
@@ -129,8 +127,8 @@
               <input type="text" placeholder="Full name" class="border-2 border-white p-2 w-full py-4 outline-none">
               <input type="number" placeholder="Mobile number" class="border-2 border-white mt-6 mr-4  w-full lg:w-5/12 p-2 py-4 outline-none ">
               <input type="email" placeholder="Email address"  class="border-2 border-white mt-6  w-full lg:w-5/12 p-2 py-4 outline-none ">
-              <input type="text" placeholder="Gender" class="border-2 border-white mt-6 mr-4 w-full lg:w-5/12 p-2 py-4 outline-none ">
-              <input type="number" placeholder="Age" class="border-2 border-white mt-6 w-full lg:w-5/12 p-2 py-4 outline-none ">
+              <input type="text" placeholder="Home address" class="border-2 border-white mt-6 mr-4 w-full lg:w-5/12 p-2 py-4 outline-none ">
+              <input type="text" placeholder="Food types" class="border-2 border-white mt-6 w-full lg:w-5/12 p-2 py-4 outline-none ">
             </div>
            
             <div class="">
@@ -154,7 +152,7 @@
       <div class=" img" id="contacts">
         <div class="w-full bg-black opacity-80">
 
-          <div class="p-16 text-center">
+          <div class="p-16 ">
             <h1 class="font-bold text-4xl mb-10 text-white">Contact us on :</h1>
 
             <div class="w-full ">
@@ -213,9 +211,6 @@
 <script>
 
 
-
-
-
 export default {
     data() {
         return {
@@ -230,7 +225,7 @@ export default {
                 nostrum ullam magni sunt asperiores assumenda perferendis corporis adipiscilaudantium porro similique placeat
                  alias?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima non odio, eveniet, 
                 omnis minus  illum nostrum ullam magni sunt asperiores assumenda perferendis corporis adipisci  laudantium porro similique placeat alias`,
-                pic: require('@/assets/images/about1.jpeg')
+                pic: require('@/assets/images/hamburger.jpg')
               },
 
               {
@@ -241,7 +236,7 @@ export default {
                 nostrum ullam magni sunt asperiores assumenda perferendis corporis adipiscilaudantium porro similique placeat
                  alias?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima non odio, eveniet, 
                 omnis minus  illum nostrum ullam magni sunt asperiores assumenda perferendis corporis adipisci  laudantium porro similique placeat alias`,
-                pic: require('@/assets/images/about2.jpg')
+                pic: require('@/assets/images/creamycake.jpg')
               },
 
               {
@@ -252,7 +247,7 @@ export default {
                 nostrum ullam magni sunt asperiores assumenda perferendis corporis adipiscilaudantium porro similique placeat
                  alias?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minima non odio, eveniet, 
                 omnis minus  illum nostrum ullam magni sunt asperiores assumenda perferendis corporis adipisci  laudantium porro similique placeat alias`,
-                pic: require('@/assets/images/about3.jpg')
+                pic: require('@/assets/images/green_vege.png')
               },
 
              
