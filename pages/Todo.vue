@@ -2,7 +2,7 @@
 <div>
    <div class="flex">
      <div class="w-1/12 bg-gray-300">
-        <img :src="require('@/assets/images/logo.png')" class="my-6">
+        <img :src="require('@/assets/images/Logo.png')" class="my-6">
      </div>
 
         <div class="w-11/12 bg-gray-200">

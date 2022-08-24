@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="">
-                    <img :src="require('@/assets/images/logo.png')" class="w-full m-0 p-0">
+                    <img :src="require('@/assets/images/Logo.png')" class="w-full m-0 p-0">
                 </div>
 
                 <div :class="is_revealed ? 'block absolute top-14 bg-black text-center mt-10 h-screen' : 'hidden lg:flex' " class="text-white items-center justify-end px-28 w-full lg:flex lg:items-center">
