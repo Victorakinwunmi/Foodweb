@@ -1,11 +1,11 @@
 <template>
 <div>
    <div class="flex">
-     <div class="w-1/12 bg-gray-300 h-screen">
+     <div class="w-1/12 bg-gray-300">
         <img :src="require('@/assets/images/logo.png')" class="my-6">
      </div>
 
-        <div class="w-11/12 bg-gray-200 h-screen">
+        <div class="w-11/12 bg-gray-200">
 
             <div class="w-full mt-6">
                 <button :class="is_revealed ? 'hidden' : 'block' " class=" mx-6 border rounded-md bg-white p-4 font-semibold" @click="ShowForm">Add task</button>

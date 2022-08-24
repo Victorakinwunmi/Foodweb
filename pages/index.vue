@@ -261,6 +261,7 @@ export default {
         hideMenu() {
             this.is_revealed = false;
         }
+        
     },
     
 }
